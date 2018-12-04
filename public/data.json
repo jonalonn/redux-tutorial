@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Product 1",
+    "text": "bullshit text",
+    "price": "1000000",
+    "image": "https://picsum.photos/300/200"
+  },
+  {
+    "id": 2,
+    "title": "Product 2",
+    "text": "bullshittier text",
+    "price": "2",
+    "image": "https://picsum.photos/300/200"
+  },
+  {
+    "id": 2,
+    "title": "Product 3",
+    "text": "bullshittier text",
+    "price": "2",
+    "image": "https://picsum.photos/300/200"
+  },
+  {
+    "id": 2,
+    "title": "Product 4",
+    "text": "bullshittier text",
+    "price": "2",
+    "image": "https://picsum.photos/300/200"
+  },
+  {
+    "id": 1,
+    "title": "Product 5",
+    "text": "bullshit text",
+    "price": "1000000",
+    "image": "https://picsum.photos/300/200"
+  },
+  {
+    "id": 2,
+    "title": "Product 6",
+    "text": "bullshittier text",
+    "price": "2",
+    "image": "https://picsum.photos/300/200"
+  },
+  {
+    "id": 2,
+    "title": "Product 7",
+    "text": "bullshittier text",
+    "price": "2",
+    "image": "https://picsum.photos/300/200"
+  },
+  {
+    "id": 2,
+    "title": "Product 8",
+    "text": "bullshittier text",
+    "price": "2",
+    "image": "https://picsum.photos/300/200"
+  }
+]
