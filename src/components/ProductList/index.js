@@ -1,3 +1,3 @@
-import ProductList from './ProductList';
+import ProductList from "./ProductList.container";
 
 export default ProductList;

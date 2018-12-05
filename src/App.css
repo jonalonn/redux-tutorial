@@ -15,6 +15,28 @@ ul {
   padding: 0;
 }
 
+.app {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.welcome {
+  flex: 0 0 100%;
+}
+
+.cart {
+  flex: 0 1 20%;
+  min-width: 200px;
+  border-left: 1px solid black;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.shop {
+  flex: 1;
+  min-width: 640px;
+}
+
 .product {
   width: 300px;
 }
@@ -22,15 +44,14 @@ ul {
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .buy {
-  margin-top: 5px;
   display: flex;
-  height: 20px;
   justify-content: space-between;
-
+  margin-top: 5px;
+  height: 20px;
 }
 
 .button {
@@ -38,14 +59,6 @@ ul {
   color: #fff;
   border-radius: 5px;
   border: none;
+  margin-left: 5px;
 }
 
-.nav {
-  width: 300px;
-  display: flex;
-}
-
-.nav a {
-  margin-right: 10px;
-
-}

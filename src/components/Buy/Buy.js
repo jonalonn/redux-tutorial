@@ -6,8 +6,10 @@ import Button from "../Button";
 const Buy = ({ price }) => (
   <div className="buy">
     <Price price={price} />
-    <InCart />
-    <Button btnText={"Buy"} onClick={() => ({})} />
+    <div>
+      <InCart />
+      <Button btnText={"Buy"} onClick={() => ({})} />
+    </div>
   </div>
 );
 

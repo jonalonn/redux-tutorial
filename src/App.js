@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
-import AppRouter from "./components/AppRouter";
+import ProductList from "./components/ProductList";
+import Cart from "./components/Cart";
+import Welcome from "./components/Welcome";
 class App extends Component {
   state = {
     fetched: false,
@@ -19,7 +21,13 @@ class App extends Component {
   }
 
   render() {
-    return <AppRouter />;
+    return (
+      <div className="app">
+        <Welcome />
+        <ProductList />
+        <Cart />
+      </div>
+    );
   }
 }
 
