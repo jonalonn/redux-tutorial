@@ -22,10 +22,12 @@ class App extends Component {
 
   render() {
     return (
-      <div className="app">
+      <div className="App">
         <Welcome />
-        <ProductList />
-        <Cart />
+        <div className="ShopContainer">
+          <ProductList />
+          <Cart />
+        </div>
       </div>
     );
   }

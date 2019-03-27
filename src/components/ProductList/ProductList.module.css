@@ -1,0 +1,10 @@
+.ProductList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Shop {
+  flex: 1 0 70%;
+  min-width: 640px;
+}
