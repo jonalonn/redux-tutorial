@@ -3,5 +3,9 @@
   color: #fff;
   border-radius: 5px;
   border: none;
-  margin-left: 5px;
+  font-size: 20px;
+  height: 40px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
 }

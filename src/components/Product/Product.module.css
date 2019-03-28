@@ -1,3 +1,15 @@
 .Product {
-  min-width: 300px;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ProductInfo {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.ProductImage {
+  max-width: 300px;
+  padding: 20px 20px 30px 0;
 }

@@ -7,7 +7,7 @@ const ProductList = ({ products = [] }) => (
     <ul className={s.ProductList}>
       {products &&
         products.map(({ title, text, price, image, id }, i) => (
-          <li className="product" key={i}>
+          <li className={s.ProductListItem} key={i}>
             <Product
               title={title}
               text={text}

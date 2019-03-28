@@ -7,10 +7,12 @@ import Image from "../Image";
 
 const Product = ({ title, text, price, image, id }) => (
   <div className={s.Product}>
-    <Title title={title} />
-    <Text text={text} />
-    <Image image={image} />
-    <Buy price={price} id={id} />
+    <Image className={s.ProductImage} image={image} />
+    <div className={s.ProductInfo}>
+      <Title title={title} />
+      <Text text={text} />
+      <Buy price={price} id={id} />
+    </div>
   </div>
 );
 

@@ -1,10 +1,19 @@
 .ProductList {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  margin-right: 20px;
+  /* justify-content: space-evenly; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 0 20px;
+  border-radius: 5px;
 }
 
 .Shop {
   flex: 1 0 70%;
   min-width: 640px;
+}
+
+.ProductListItem {
+  width: 100%;
 }
